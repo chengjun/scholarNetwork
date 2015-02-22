@@ -42,3 +42,5 @@ or
 			with_labels = True, arrows = True)
 	plt.show()
 
+
+![](https://github.com/chengjun/scholarNetwork/blob/master/example.png)
