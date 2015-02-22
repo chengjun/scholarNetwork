@@ -23,8 +23,8 @@ setup(
     url='https://github.com/chengjun/scholarNetwork',
 
     # Author details
-    author='Cheng-Jun Wang',
-    author_email='wangchj04@gmail.com',
+    author='Cheng-Jun Wang & Lingfei Wu',
+    author_email='wangchj04@gmail.com; wwlf850927@gmail.com',
 
     # Choose your license
     license='MIT',
