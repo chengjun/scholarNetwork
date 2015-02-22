@@ -7,7 +7,7 @@ Lingfei Wu wlf850927@gmail.com
 
 ## Introduction
 
-scholarNetwork is a python package for crawl and visualize the co-author network of Google Scholar.
+scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.
 
 To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.
 
@@ -44,3 +44,7 @@ or
 
 
 ![](https://github.com/chengjun/scholarNetwork/blob/master/example.png)
+
+Of course, you can get a much larger graph to see what's happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.
+
+![](http://chengjun.qiniudn.com/ego300large.png)

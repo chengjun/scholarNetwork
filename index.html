@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body>
+<h1 id="scholarnetwork">scholarNetwork</h1>
+<p>Developed by Cheng-Jun Wang &amp; Lingfei Wu</p>
+<p>Cheng-Jun Wang wangchj04@gmail.com
+Lingfei Wu wlf850927@gmail.com</p>
+<h2 id="introduction">Introduction</h2>
+<p>scholarNetwork is a python package for crawl and visualize the co-author network of Google Scholar.</p>
+<p>To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.</p>
+<h2 id="install">Install</h2>
+<p>Install from pypi using pip or easy_install</p>
+<pre><code>pip install scholarNetwork
+</code></pre><p>or</p>
+<pre><code>easy_install scholarNetwork
+</code></pre><h2 id="use">Use</h2>
+<pre><code># scholarNetwork
+
+from scholarNetwork import scholarNetwork
+import matplotlib.pyplot as plt
+import networkx as nx
+
+## The seed of crawler
+seed = &#39;https://scholar.google.nl/citations?user=nNdt_G8AAAAJ&amp;hl=en&amp;oe=ASCII&#39;
+# How many nodes do you want to visulize? Always start with a small one. 
+Nmax = 21
+## Get the graph g
+g = scholarNetwork.getGraph(seed, Nmax)
+
+## plot the network
+pos=nx.spring_layout(g) #setup the layout
+
+nx.draw(g, pos, node_shape = &#39;o&#39;,
+        edge_color = &#39;gray&#39;, width = 0.5,
+        with_labels = True, arrows = True)
+plt.show()
+</code></pre><p><img src="http://chengjun.qiniudn.com/example.png" alt=""></p>
+
+</body></html>
