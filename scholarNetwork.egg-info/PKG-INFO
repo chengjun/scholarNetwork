@@ -1,0 +1,36 @@
+Metadata-Version: 1.0
+Name: scholarNetwork
+Version: 1.0.0.2
+Summary: Coauthor-Network of your Google Scholar
+Home-page: https://github.com/chengjun/scholarNetwork
+Author: Cheng-Jun Wang
+Author-email: wangchj04@gmail.com
+License: MIT
+Description: Coauthor-Network of Google Scholar
+        =======================
+        
+        This is the description file for the project.
+        
+        
+        An overview of the project
+        
+        
+        
+        Basic usage examples
+        
+        
+        
+        What's New?
+Keywords: Google Scholar
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

@@ -1,0 +1,9 @@
+beautifulsoup4
+networkx
+matplotlib
+
+[test]
+coverage
+
+[dev]
+check-manifest

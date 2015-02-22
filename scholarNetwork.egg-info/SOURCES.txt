@@ -1,0 +1,14 @@
+DESCRIPTION.rst
+MANIFEST.in
+setup.cfg
+setup.py
+sample/__init__.py
+sample/package_data.dat
+scholarNetwork/__init__.py
+scholarNetwork/scholarNetwork.py
+scholarNetwork.egg-info/PKG-INFO
+scholarNetwork.egg-info/SOURCES.txt
+scholarNetwork.egg-info/dependency_links.txt
+scholarNetwork.egg-info/entry_points.txt
+scholarNetwork.egg-info/requires.txt
+scholarNetwork.egg-info/top_level.txt
