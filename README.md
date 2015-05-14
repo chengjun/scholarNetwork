@@ -21,6 +21,8 @@ or
 	easy_install scholarNetwork
 
 ##Use
+
+```python
 	# scholarNetwork
 
 	from scholarNetwork import scholarNetwork
@@ -41,7 +43,7 @@ or
 			edge_color = 'gray', width = 0.5,
 			with_labels = True, arrows = True)
 	plt.show()
-
+```
 
 ![](https://github.com/chengjun/scholarNetwork/blob/master/example.png)
 
