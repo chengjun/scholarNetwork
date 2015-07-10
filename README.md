@@ -53,6 +53,7 @@ Of course, you can get a much larger graph to see what's happening around you, j
 
 ## Plot tree graph
 
+```python
 G=nx.DiGraph()
 G.add_edge('source',1,weight=80)
 G.add_edge(1,2,weight=50)
@@ -71,3 +72,4 @@ fig = plt.figure(figsize=(9, 9),facecolor='white')
 ax = fig.add_subplot(111)
 scholarNetwork.plotTree(G,ax)
 plt.show()
+```
