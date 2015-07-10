@@ -1,5 +1,6 @@
 DESCRIPTION.rst
 MANIFEST.in
+README.rst
 setup.cfg
 setup.py
 sample/__init__.py

@@ -1,10 +1,10 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: scholarNetwork
-Version: 1.0.0.2
+Version: 1.1.0.2
 Summary: Coauthor-Network of your Google Scholar
 Home-page: https://github.com/chengjun/scholarNetwork
-Author: Cheng-Jun Wang
-Author-email: wangchj04@gmail.com
+Author: Cheng-Jun Wang & Lingfei Wu
+Author-email: wangchj04@gmail.com; wwlf850927@gmail.com
 License: MIT
 Description: Coauthor-Network of Google Scholar
         =======================

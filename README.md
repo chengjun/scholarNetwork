@@ -50,3 +50,24 @@ plt.show()
 Of course, you can get a much larger graph to see what's happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.
 
 ![](http://chengjun.qiniudn.com/ego300large.png)
+
+## Plot tree graph
+
+G=nx.DiGraph()
+G.add_edge('source',1,weight=80)
+G.add_edge(1,2,weight=50)
+G.add_edge(1,3,weight=30)
+G.add_edge(3,2,weight=10)
+G.add_edge(2,4,weight=20)
+G.add_edge(2,5,weight=30)
+G.add_edge(4,5,weight=10)
+G.add_edge(5,3,weight=5)
+G.add_edge(2,'sink',weight=10)
+G.add_edge(4,'sink',weight=10)
+G.add_edge(3,'sink',weight=25)
+G.add_edge(5,'sink',weight=35)
+
+fig = plt.figure(figsize=(9, 9),facecolor='white')
+ax = fig.add_subplot(111)
+scholarNetwork.plotTree(G,ax)
+plt.show()
