@@ -41,7 +41,7 @@ def getGraph(seed, Nmax):
         for j in coUrls:
             urls[j] += 0 
         for m in coNames: #for network plot
-            G.add_edge(egoName.split(',')[0], m.split(',')[0])
+            G.add_edge(egoName.split(',')[0], m.split(',')[0], weight = 1)
         return coUrls
     
     while newUrls:
@@ -374,8 +374,9 @@ def drawt(ax,root,rawVersion,circle,J,U,max_x,max_y):
     if str(root.tree)!='source':
         ax.scatter(x, y, facecolor='c',lw = 0,alpha=1,
                     s=200*U[str(root.tree)]/max(U.values())+3,zorder=2)
+        ax.text(x, y, root.tree, fontsize = 10, rotation = -45)
     for child in root.children:
-        drawt(ax,child,rawVersion,circle,J,U,max_x,max_y)
+        drawt(ax,child,rawVersion,circle,J,U,max_x,max_y) ###MARK###
 
 def drawconn(ax,root,rawVersion,circle,J,max_x,max_y):
     rootx=root.x

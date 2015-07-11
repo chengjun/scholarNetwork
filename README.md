@@ -73,3 +73,12 @@ ax = fig.add_subplot(111)
 scholarNetwork.plotTree(G,ax)
 plt.show()
 ```
+For the coauthor network we have crawled, we can also visualize it as a tree. 
+
+```python
+fig = plt.figure(figsize=(9, 9),facecolor='white')
+ax = fig.add_subplot(111)
+scholarNetwork.plotTree(g,ax)
+plt.show()
+```
+![](https://github.com/chengjun/scholarNetwork/blob/master/tree.png)
