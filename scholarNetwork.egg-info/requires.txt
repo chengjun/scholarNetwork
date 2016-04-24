@@ -1,9 +1,9 @@
-beautifulsoup4
-networkx
-matplotlib
 
 [dev]
 check-manifest
 
 [test]
+beautifulsoup4
+networkx
+matplotlib
 coverage
